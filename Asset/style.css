@@ -1,0 +1,48 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+header {
+    border: 1px solid black;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    color: black;
+}
+
+header p {
+    font-style: italic;
+}
+
+header img {
+    width: 15%;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+header img:hover {
+    transform: scale(.8);
+    transition: all ,1s ease-in-out;
+    box-shadow: 2px 2px 12px lightslategray;
+}
+header button {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    background-color: lightblue;
+    color: black;
+    border-radius: 16px;
+    border: 1px solid darkslategrey;
+}
+header button:hover {
+    background-color: lightslategray;
+    color: lightcyan;
+    box-shadow: 2px 2px 12px lightskyblue;
+}
+
+.about {
+    text-align: center;
+    margin: 40px;
+}
